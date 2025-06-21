@@ -15,6 +15,7 @@ cd N-body_simulator
 ```
 ### 3. Build and run (manually)
 ```bash
+cd coding
 g++ main.cpp -std=c++17 -I../src/include -L../src/lib -lsfml-graphics -lsfml-window -lsfml-system -o ../main.exe
 ../main.exe
 ```
