@@ -1,0 +1,18 @@
+# Ignore SFML and build artifacts
+*.dll
+*.lib
+*.a
+*.pdb
+*.exe
+*.obj
+*.o
+*.log
+
+# Ignore directories
+/lib/
+.vscode
+
+#Files
+commands.txt
+circleMove.cpp
+main1.cpp
