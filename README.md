@@ -1,5 +1,5 @@
 <h1>N Body Simulator</h1>
-A basic 2D N-body gravity simulation using SFML. It models gravitational interaction and motion of celestial bodies under Newtonian physics.
+A basic 2D N-body gravity simulation using SFML. It models gravitational interaction and motion of celestial bodies under Newtonian physics using both Verlet and Euler integration.
 
 ## Setup
 This project uses SFML 3 for graphics and physics visualization.<br>
@@ -28,5 +28,5 @@ Next each line in `input.txt` represents one body with:
 All values are in SI units.
 
 ## Future Improvements
-1. Try implementing RK4 integration for better accuracy (currently uses Verlet & Euler).<br>
+1. Try implementing RK4 integration for better accuracy.<br>
 2. Improve collision handling.
