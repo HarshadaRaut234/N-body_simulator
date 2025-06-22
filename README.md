@@ -28,5 +28,5 @@ Next each line in `input.txt` represents one body with:
 All values are in SI units.
 
 ## Future Improvements
-1. Switch to Verlet integration for better accuracy (uses Euler currently).<br>
+1. Try implementing RK4 integration for better accuracy (currently uses Verlet & Euler).<br>
 2. Improve collision handling.
